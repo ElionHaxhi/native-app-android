@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context="com.pranvera.root.docmanpersist.ui.VisitFormActivity$PlaceholderFragment">
+
+
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:id="@+id/editTextLayout"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginTop="14dp"
+        android:orientation="vertical"
+        android:isScrollContainer="true"
+        android:paddingBottom="14dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <ImageView
+            android:id="@+id/visit_image_of_visit"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_marginLeft="60dp"
+            android:paddingLeft="6dp"
+            android:paddingRight="6dp"
+            android:layout_marginBottom="1dp"
+            android:layout_weight="1"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_launcher"/>
+
+        <FrameLayout
+            android:id="@+id/the_image_of_visit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_below="@+id/editTextLayout"
+            android:layout_marginLeft="100dp"
+            android:layout_marginBottom="30dp">
+
+
+
+            <TextView
+                android:id="@+id/textview_data_imagine"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="lun 12 gen 2015"
+                />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/thetwo_textview_goal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_below="@+id/the_image_of_visit">
+
+            <TextView
+                android:id="@+id/textview_dettagli"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Goal Exam:"
+                android:textStyle="bold"/>
+            <TextView
+                android:id="@+id/textview_dettagli_retval"
+                android:layout_marginLeft="120dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="descrizione_dettagla"/>
+
+            </FrameLayout>
+        <FrameLayout
+            android:id="@+id/thetwo_textview_anamnesi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_below="@+id/thetwo_textview_goal">
+
+            <TextView
+                android:id="@+id/textview_anamnesi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Anamnesi:"
+                android:textStyle="bold"/>
+            <TextView
+                android:id="@+id/textview_anamnesi_retval"
+                android:layout_marginLeft="120dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="descrizione anamnesi"/>
+
+        </FrameLayout>
+        <FrameLayout
+            android:id="@+id/thetwo_textview_terapy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_below="@+id/thetwo_textview_anamnesi">
+
+            <TextView
+                android:id="@+id/textview_terapy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Terapy:"
+                android:textStyle="bold"/>
+            <TextView
+                android:id="@+id/textview_terapy_retval"
+                android:layout_marginLeft="120dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="descrizione terapy"/>
+
+        </FrameLayout>
+        <FrameLayout
+            android:id="@+id/thetwo_textview_diagnostic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_below="@+id/thetwo_textview_terapy">
+
+            <TextView
+                android:id="@+id/textview_diagnostic"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Diagnostic:"
+                android:textStyle="bold"/>
+            <TextView
+                android:id="@+id/textview_diagnostic_retval"
+                android:layout_marginLeft="120dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="descrizione"/>
+
+        </FrameLayout>
+
+    </LinearLayout>
+</ScrollView>
+    </RelativeLayout>

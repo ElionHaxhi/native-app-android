@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.pranvera.root.docmanpersist.ui.VisitFormActivity" >
+    <item android:id="@+id/action_back_button"
+        android:title="Back"
+        android:icon="@drawable/ic_action_back"
+        android:showAsAction="ifRoom"
+        tools:ignore="AppCompatResource" />
+    <item android:id="@+id/action_edit_button"
+        android:title="Edit"
+        android:icon="@drawable/ic_action_edit"
+        android:showAsAction="ifRoom"
+        tools:ignore="AppCompatResource" />
+    <item android:id="@+id/action_discard_button"
+        android:title="Delete"
+        android:icon="@drawable/ic_action_discard"
+        android:showAsAction="ifRoom"
+        tools:ignore="AppCompatResource" />
+</menu>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Pranvera</string>
+    <string name="action_scata_foto">Camera</string>
+    <string name="action_scegli_foto">Gallery</string>
+    <string name="action_settings">Setting</string>
+    <string name="action_logout_on_main">Logout</string>
+    <string name="action_refresh_on_main">Refresh</string>
+    <string name="title_activity_ok_persist">OkPersistActivity</string>
+    <string name="title_activity_login">Pranvera</string>
+    <string name="title_activity_doctor">DoctorActivity</string>
+    <string name="title_activity_patient_form">PatientFormActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="error_external_storage">There was a problem accessing your device\'s external storage</string>
+
+    <string-array name="patient_choices">
+        <item>Update</item>
+        <item>Delete</item>
+    </string-array>
+
+    <string-array name="camera_choices">
+        <item>Camera</item>
+        <item>Gallery</item>
+    </string-array>
+
+
+    <string name="title_activity_visit_list">VisitListActivity</string>
+    <string name="title_activity_visit_form">VisitFormActivity</string>
+    <string name="title_detail">Detail</string>
+    <string name="title_anamnesi">Anamnesi</string>
+    <string name="title_goal_exam">Goal Exam</string>
+    <string name="title_teraphy">Teraphy</string>
+    <string name="title_diagnostic">Diagnostic</string>
+    <string name="title_gallery">Foto Gallery</string>
+    <string name="title_activity_visit_pager">VisitPagerActivity</string>
+    <string name="title_activity_edit_visit_form">EditVisitFormActivity</string>
+
+</resources>

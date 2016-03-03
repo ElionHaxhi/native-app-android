@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="8dp"
+        android:background="@android:color/white" >
+
+        <ImageView
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:paddingRight="8dp"
+            android:id="@+id/visit_image"
+            android:layout_weight="1"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_launcher"/>
+
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="65dp"
+            android:orientation="vertical"
+            android:paddingLeft="8dp"
+            >
+
+
+            <TextView
+                android:id="@+id/content_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/visit_image"
+                android:layout_alignParentLeft="true"
+                android:paddingTop="8dp"
+                android:paddingLeft="8dp"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:text="ciao" />
+
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+</LinearLayout>

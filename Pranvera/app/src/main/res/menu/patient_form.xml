@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.pranvera.root.docmanpersist.ui.PatientFormActivity" >
+
+    <item android:id="@+id/action_cancel_patient_button"
+        android:title="Cancel"
+        android:icon="@drawable/ic_action_cancel"
+        android:showAsAction="ifRoom"
+        tools:ignore="AppCompatResource" />
+    <item android:id="@+id/action_save_button_patient"
+        android:title="Save"
+        android:icon="@drawable/ic_action_save"
+        android:showAsAction="ifRoom"
+        tools:ignore="AppCompatResource" />
+
+</menu>
